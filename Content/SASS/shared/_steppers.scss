@@ -1,0 +1,17 @@
+@import "variables";
+
+.katsenkatorz-stepper{
+   .katsenkatorz-stepper-header{
+      min-height:$size-header;
+      .katsenkatorz-stepper-step{
+         min-height:$size-header;
+        // padding:$padding-step;
+         float:left;
+         width:33.33%;
+         //border:black solid 1px;
+      }
+   }
+   .katsenkatorz-stepper-content{
+      height:800px;
+   }
+}
