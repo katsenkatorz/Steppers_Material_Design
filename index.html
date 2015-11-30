@@ -4,9 +4,9 @@
 	<meta charset="UTF-8">
 	<title>Steppers</title>
 
-	<!-- Material design impor -->
-	<link rel="stylesheet" href="Content/CSS/MDL/material.min.css">
-	<link rel="stylesheet" href="Content/CSS/styles.min.css">
+	<!-- Material design import -->
+	<link rel="stylesheet" href="Content/css/MDL/material.min.css">
+	<link rel="stylesheet" href="Content/css/styles.min.css">
 	<script src="https://storage.googleapis.com/code.getmdl.io/1.0.6/material.min.js"></script>
 	<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
 
@@ -17,6 +17,7 @@
 			<div class="mdl-layout-icon"></div>
 			<div class="mdl-layout__header-row">
 				<span class="mdl-layout__title">Components – Steppers</span>
+
 				<div class="mdl-layout-spacer"></div>
 			</div>
 		</header>
@@ -29,13 +30,43 @@
 					<div class="katsenkatorz-stepper">
 						<!-- Header Steppers -->
 						<div class="mdl-shadow--2dp katsenkatorz-stepper-header">
-							<div class="katsenkatorz-stepper-step">d</div>
-							<div class="katsenkatorz-stepper-step">d</div>
-							<div class="katsenkatorz-stepper-step">d</div>
+							<div class="katsenkatorz-stepper-group">
+								<div class="katsenkatorz-stepper-step">
+									<div class="katsenkatorz-stepper-chip mdl-color--primary">1</div>
+									<div class="katsenkatorz-stepper-title">
+										Step 1
+									</div>
+								</div>
+								<div class="katsenkatorz-stepper-separator"></div>
+							</div>
+							<div class="katsenkatorz-stepper-group">
+								<div class="katsenkatorz-stepper-step">
+									<div class="katsenkatorz-stepper-chip mdl-color--primary">2</div>
+									<span class="katsenkatorz-stepper-title">Step 2</span>
+								</div>
+
+								<div class="katsenkatorz-stepper-separator"></div>
+							</div>
+							<div class="katsenkatorz-stepper-group">
+								<div class="katsenkatorz-stepper-step">
+									<div class="katsenkatorz-stepper-chip mdl-color--primary">3</div>
+									<span class="katsenkatorz-stepper-title">Step 3</span>
+								</div>
+								<div class="katsenkatorz-stepper-separator"></div>
+							</div>
 						</div>
 						<!-- Content Steppers -->
 						<div class="katsenkatorz-stepper-content">
 
+						</div>
+						<!-- Footer Steppers -->
+						<div class="katsenkatorz-stepper-footer">
+							<button class="mdl-button mdl-js-button mdl-button--raised mdl-button--colored mdl-js-ripple-effect">
+								Continue
+							</button>
+							<button class="mdl-button mdl-js-button mdl-js-ripple-effect">
+								Cancel
+							</button>
 						</div>
 					</div>
 
@@ -44,5 +75,7 @@
 			</div>
 		</main>
 	</div>
+
+	<script src="Content/js/main.js"></script>
 </body>
 </html>
