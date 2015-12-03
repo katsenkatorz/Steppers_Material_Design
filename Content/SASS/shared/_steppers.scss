@@ -43,10 +43,11 @@
       }
    }
    > .katsenkatorz-stepper-content{
-      height:600px;
+      height:300px;
+      margin:16px 24px;
    }
    > .katsenkatorz-stepper-footer{
-      margin:16px;
+      margin:16px 24px;
       min-height:$size-footer;
    }
 }

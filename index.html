@@ -3,7 +3,10 @@
 <head>
 	<meta charset="UTF-8">
 	<title>Steppers</title>
-
+	<!--Jquery-->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+	<script src="Content/js/jquery-ui.min.js"></script>
+	<script src="Content/js/jquery.validate.js"></script>
 	<!-- Material design import -->
 	<link rel="stylesheet" href="Content/css/MDL/material.min.css">
 	<link rel="stylesheet" href="Content/css/styles.min.css">
@@ -26,53 +29,65 @@
 			<div class="mdl-grid">
 				<div class="mdl-cell--2-col-desktop"></div>
 				<div class="mdl-cell--8-col-desktop mdl-cell--8-col-tablet mdl-cell--4-col-phone mdl-color--white mdl-shadow--3dp">
-					<!-- Steppers -->
-					<div class="katsenkatorz-stepper">
-						<!-- Header Steppers -->
-						<div class="mdl-shadow--2dp katsenkatorz-stepper-header">
-							<div class="katsenkatorz-stepper-group">
-								<div class="katsenkatorz-stepper-step">
-									<div class="katsenkatorz-stepper-chip mdl-color--primary">1</div>
-									<div class="katsenkatorz-stepper-title">
-										Step 1
+					<form>
+						<!-- Steppers -->
+						<div class="katsenkatorz-stepper">
+							<!-- Header Steppers -->
+							<div class="mdl-shadow--2dp katsenkatorz-stepper-header">
+								<div class="katsenkatorz-stepper-group">
+									<div class="katsenkatorz-stepper-step">
+										<div class="katsenkatorz-stepper-chip mdl-color--primary">1</div>
+										<div class="katsenkatorz-stepper-title">
+											Step 1
+										</div>
 									</div>
+									<div class="katsenkatorz-stepper-separator"></div>
 								</div>
-								<div class="katsenkatorz-stepper-separator"></div>
+								<div class="katsenkatorz-stepper-group">
+									<div class="katsenkatorz-stepper-step">
+										<div class="katsenkatorz-stepper-chip mdl-color--primary">2</div>
+										<span class="katsenkatorz-stepper-title">Step 2</span>
+									</div>
+									<div class="katsenkatorz-stepper-separator"></div>
+								</div>
+								<div class="katsenkatorz-stepper-group">
+									<div class="katsenkatorz-stepper-step">
+										<div class="katsenkatorz-stepper-chip mdl-color--primary">3</div>
+										<span class="katsenkatorz-stepper-title">Step 3</span>
+									</div>
+									<div class="katsenkatorz-stepper-separator"></div>
+								</div>
 							</div>
-							<div class="katsenkatorz-stepper-group">
-								<div class="katsenkatorz-stepper-step">
-									<div class="katsenkatorz-stepper-chip mdl-color--primary">2</div>
-									<span class="katsenkatorz-stepper-title">Step 2</span>
-								</div>
-
-								<div class="katsenkatorz-stepper-separator"></div>
+							<!-- Content Steppers -->
+							<div class="katsenkatorz-stepper-content mdl-color--grey-500">
+								1
 							</div>
-							<div class="katsenkatorz-stepper-group">
-								<div class="katsenkatorz-stepper-step">
-									<div class="katsenkatorz-stepper-chip mdl-color--primary">3</div>
-									<span class="katsenkatorz-stepper-title">Step 3</span>
+							<div class="katsenkatorz-stepper-content mdl-color--grey-500">
+								2
+							</div>
+							<div class="katsenkatorz-stepper-content mdl-color--grey-500">
+								3
+							</div>
+							<!-- Footer Steppers -->
+							<div class="katsenkatorz-stepper-footer">
+								<a class="mdl-button mdl-js-button mdl-js-ripple-effect back">
+									back
+								</a>
+								<div class="block-right">
+									<a class="mdl-button mdl-js-button mdl-js-ripple-effect">
+										Cancel
+									</a>
+									<a class="mdl-button mdl-js-button mdl-button--raised mdl-button--colored mdl-js-ripple-effect next">
+										Continue
+									</a>
 								</div>
-								<div class="katsenkatorz-stepper-separator"></div>
 							</div>
 						</div>
-						<!-- Content Steppers -->
-						<div class="katsenkatorz-stepper-content">
 
-						</div>
-						<!-- Footer Steppers -->
-						<div class="katsenkatorz-stepper-footer">
-							<button class="mdl-button mdl-js-button mdl-button--raised mdl-button--colored mdl-js-ripple-effect">
-								Continue
-							</button>
-							<button class="mdl-button mdl-js-button mdl-js-ripple-effect">
-								Cancel
-							</button>
-						</div>
-					</div>
-
+					</form>
 				</div>
-				<div class="mdl-cell--2-col-desktop"></div>
 			</div>
+			<div class="mdl-cell--2-col-desktop"></div>
 		</main>
 	</div>
 
